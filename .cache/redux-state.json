@@ -824,6 +824,10 @@
             "version": "^2.0.29"
           },
           {
+            "name": "gatsby-source-stripe",
+            "version": "^2.2.2"
+          },
+          {
             "name": "gatsby-transformer-sharp",
             "version": "^2.1.17"
           },
@@ -970,14 +974,12 @@
       },
       "port": 8000,
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-04-19T03:33:03.990Z",
+      "buildTime": "2019-04-22T04:05:42.694Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "03fe3a7eafe199a5a14c35ad29082351",
+        "contentDigest": "942fcbe35db657943d5e8d18669e9c95",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -987,7 +989,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "df64e16feed5dadad92da8686132b553",
+        "contentDigest": "02e7a07e826399c49a07c4454ce3fb4f",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -999,7 +1001,7 @@
       "size": 136,
       "prettySize": "136 B",
       "modifiedTime": "2019-04-19T02:40:54.000Z",
-      "accessTime": "2019-04-19T03:33:19.000Z",
+      "accessTime": "2019-04-22T04:05:56.000Z",
       "changeTime": "2019-04-19T03:28:04.000Z",
       "birthTime": "2019-04-19T02:40:54.000Z",
       "root": "/",
@@ -1017,71 +1019,14 @@
       "blksize": 4096,
       "ino": 6413459,
       "blocks": 0,
-      "atimeMs": 1555644799000,
+      "atimeMs": 1555905956000,
       "mtimeMs": 1555641654000,
       "ctimeMs": 1555644484000,
       "birthtimeMs": 1555641654000,
-      "atime": "2019-04-19T03:33:19.000Z",
+      "atime": "2019-04-22T04:05:56.000Z",
       "mtime": "2019-04-19T02:40:54.000Z",
       "ctime": "2019-04-19T03:28:04.000Z",
       "birthtime": "2019-04-19T02:40:54.000Z"
-    },
-    "26b4178d-1808-5898-bd5d-54daa03e0895": {
-      "id": "26b4178d-1808-5898-bd5d-54daa03e0895",
-      "children": [
-        "2ccdd2e8-eb7a-5f97-966b-047c7f4edef1"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/gatsby-astronaut.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/images/gatsby-astronaut.png",
-      "relativePath": "gatsby-astronaut.png",
-      "extension": "png",
-      "size": 167273,
-      "prettySize": "167 kB",
-      "modifiedTime": "2019-04-19T02:40:54.000Z",
-      "accessTime": "2019-04-19T03:29:37.000Z",
-      "changeTime": "2019-04-19T03:28:04.000Z",
-      "birthTime": "2019-04-19T02:40:54.000Z",
-      "root": "/",
-      "dir": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/images",
-      "base": "gatsby-astronaut.png",
-      "ext": ".png",
-      "name": "gatsby-astronaut",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 6413460,
-      "blocks": 328,
-      "atimeMs": 1555644577000,
-      "mtimeMs": 1555641654000,
-      "ctimeMs": 1555644484000,
-      "birthtimeMs": 1555641654000,
-      "atime": "2019-04-19T03:29:37.000Z",
-      "mtime": "2019-04-19T02:40:54.000Z",
-      "ctime": "2019-04-19T03:28:04.000Z",
-      "birthtime": "2019-04-19T02:40:54.000Z"
-    },
-    "2ccdd2e8-eb7a-5f97-966b-047c7f4edef1": {
-      "id": "2ccdd2e8-eb7a-5f97-966b-047c7f4edef1",
-      "children": [],
-      "parent": "26b4178d-1808-5898-bd5d-54daa03e0895",
-      "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "c1b6891a-52ee-597a-b452-6e7ace10f3da": {
       "id": "c1b6891a-52ee-597a-b452-6e7ace10f3da",
@@ -1103,7 +1048,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-04-19T02:40:54.000Z",
-      "accessTime": "2019-04-19T03:29:37.000Z",
+      "accessTime": "2019-04-19T03:33:22.000Z",
       "changeTime": "2019-04-19T03:28:04.000Z",
       "birthTime": "2019-04-19T02:40:54.000Z",
       "root": "/",
@@ -1121,11 +1066,11 @@
       "blksize": 4096,
       "ino": 6413461,
       "blocks": 48,
-      "atimeMs": 1555644577000,
+      "atimeMs": 1555644802000,
       "mtimeMs": 1555641654000,
       "ctimeMs": 1555644484000,
       "birthtimeMs": 1555641654000,
-      "atime": "2019-04-19T03:29:37.000Z",
+      "atime": "2019-04-19T03:33:22.000Z",
       "mtime": "2019-04-19T02:40:54.000Z",
       "ctime": "2019-04-19T03:28:04.000Z",
       "birthtime": "2019-04-19T02:40:54.000Z"
@@ -1136,6 +1081,63 @@
       "parent": "c1b6891a-52ee-597a-b452-6e7ace10f3da",
       "internal": {
         "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "26b4178d-1808-5898-bd5d-54daa03e0895": {
+      "id": "26b4178d-1808-5898-bd5d-54daa03e0895",
+      "children": [
+        "2ccdd2e8-eb7a-5f97-966b-047c7f4edef1"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2019-04-19T02:40:54.000Z",
+      "accessTime": "2019-04-19T19:33:54.000Z",
+      "changeTime": "2019-04-19T03:28:04.000Z",
+      "birthTime": "2019-04-19T02:40:54.000Z",
+      "root": "/",
+      "dir": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 6413460,
+      "blocks": 328,
+      "atimeMs": 1555702434000,
+      "mtimeMs": 1555641654000,
+      "ctimeMs": 1555644484000,
+      "birthtimeMs": 1555641654000,
+      "atime": "2019-04-19T19:33:54.000Z",
+      "mtime": "2019-04-19T02:40:54.000Z",
+      "ctime": "2019-04-19T03:28:04.000Z",
+      "birthtime": "2019-04-19T02:40:54.000Z"
+    },
+    "2ccdd2e8-eb7a-5f97-966b-047c7f4edef1": {
+      "id": "2ccdd2e8-eb7a-5f97-966b-047c7f4edef1",
+      "children": [],
+      "parent": "26b4178d-1808-5898-bd5d-54daa03e0895",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1161,6 +1163,27 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /canceled/": {
+      "jsonName": "canceled-b86",
+      "internalComponentName": "ComponentCanceled",
+      "path": "/canceled/",
+      "component": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/canceled.js",
+      "componentChunkName": "component---src-pages-canceled-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "0cef4f7c-85a2-529e-8246-609456f1e386",
+      "pluginCreatorId": "0cef4f7c-85a2-529e-8246-609456f1e386",
+      "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/canceled.js",
+      "id": "SitePage /canceled/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f092c30b88ec3ac870aebe768aa57834",
+        "description": "0cef4f7c-85a2-529e-8246-609456f1e386",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
@@ -1179,27 +1202,6 @@
         "type": "SitePage",
         "contentDigest": "89fcabae873d937436f864905a8461e9",
         "description": "0cef4f7c-85a2-529e-8246-609456f1e386",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "jsonName": "404-html-516",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "isCreatedByStatefulCreatePages": true,
-      "context": {},
-      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "9b767aa250f025a9a9a1d0ffa007d4ac",
-        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
     },
@@ -1224,31 +1226,31 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /canceled/": {
-      "jsonName": "canceled-b86",
-      "internalComponentName": "ComponentCanceled",
-      "path": "/canceled/",
-      "component": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/canceled.js",
-      "componentChunkName": "component---src-pages-canceled-js",
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
       "isCreatedByStatefulCreatePages": true,
       "context": {},
-      "pluginCreator___NODE": "0cef4f7c-85a2-529e-8246-609456f1e386",
-      "pluginCreatorId": "0cef4f7c-85a2-529e-8246-609456f1e386",
-      "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/canceled.js",
-      "id": "SitePage /canceled/",
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/404.js",
+      "id": "SitePage /404.html",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f092c30b88ec3ac870aebe768aa57834",
-        "description": "0cef4f7c-85a2-529e-8246-609456f1e386",
+        "contentDigest": "9b767aa250f025a9a9a1d0ffa007d4ac",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "b0b8695760a61a2e8c7b7c08a0b6bb7f"
+    "PLUGINS_HASH": "48acc664e0c0efc0c549046b2c18ea31"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1286,7 +1288,7 @@
       "pages": [
         "/dev-404-page/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/404.js": {
       "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/404.js",
@@ -1295,23 +1297,7 @@
         "/404/",
         "/404.html"
       ],
-      "isInBootstrap": false
-    },
-    "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/index.js": {
-      "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/index.js",
-      "query": "",
-      "pages": [
-        "/"
-      ],
-      "isInBootstrap": false
-    },
-    "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/success.js": {
-      "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/success.js",
-      "query": "",
-      "pages": [
-        "/success/"
-      ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/canceled.js": {
       "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/canceled.js",
@@ -1319,7 +1305,23 @@
       "pages": [
         "/canceled/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
+    },
+    "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/index.js": {
+      "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/index.js",
+      "query": "",
+      "pages": [
+        "/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/success.js": {
+      "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/success.js",
+      "query": "",
+      "pages": [
+        "/success/"
+      ],
+      "isInBootstrap": true
     }
   },
   "staticQueryComponents": {

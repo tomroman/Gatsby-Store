@@ -197,73 +197,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "f9897169-8332-5b4e-b094-83091da03f89": {
-      "resolve": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/node_modules/gatsby-plugin-stripe",
-      "id": "f9897169-8332-5b4e-b094-83091da03f89",
-      "name": "gatsby-plugin-stripe",
-      "version": "1.2.0",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [],
-      "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/node_modules/gatsby-plugin-stripe",
-      "packageJson": {
-        "name": "gatsby-plugin-stripe",
-        "description": "Gatsby plugin that adds stripe.js to site",
-        "version": "1.2.0",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "stripe",
-          "stripe.js"
-        ],
-        "author": "Nathan Beck <njosefbeck@gmail.com>",
-        "license": "MIT",
-        "dependencies": [],
-        "devDependencies": [
-          {
-            "name": "babel-cli",
-            "version": "6.26.0"
-          },
-          {
-            "name": "babel-preset-env",
-            "version": "1.7.0"
-          },
-          {
-            "name": "babel-preset-react",
-            "version": "6.24.1"
-          },
-          {
-            "name": "babel-runtime",
-            "version": "6.26.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "5.2.0"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">=1"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "de9febdb38cccbe0f2cdd498c82acdd5",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
       "resolve": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/node_modules/gatsby-plugin-react-helmet",
       "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
@@ -687,6 +620,173 @@
         "owner": "internal-data-bridge"
       }
     },
+    "f9897169-8332-5b4e-b094-83091da03f89": {
+      "resolve": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/node_modules/gatsby-plugin-stripe",
+      "id": "f9897169-8332-5b4e-b094-83091da03f89",
+      "name": "gatsby-plugin-stripe",
+      "version": "1.2.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/node_modules/gatsby-plugin-stripe",
+      "packageJson": {
+        "name": "gatsby-plugin-stripe",
+        "description": "Gatsby plugin that adds stripe.js to site",
+        "version": "1.2.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "stripe",
+          "stripe.js"
+        ],
+        "author": "Nathan Beck <njosefbeck@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "6.26.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "1.7.0"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "6.24.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "5.2.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">=1"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "de9febdb38cccbe0f2cdd498c82acdd5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4d03e2d5-04e7-51a3-a619-b76b40a38f61": {
+      "resolve": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/node_modules/gatsby-source-stripe",
+      "id": "4d03e2d5-04e7-51a3-a619-b76b40a38f61",
+      "name": "gatsby-source-stripe",
+      "version": "2.2.2",
+      "pluginOptions": {
+        "plugins": [],
+        "objects": [
+          "Sku"
+        ],
+        "secretKey": "rk_test_AtSSYv5rq6uyBuaOeMNpBHEq009d11IU2k",
+        "downloadFiles": true
+      },
+      "nodeAPIs": [
+        "sourceNodes"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/node_modules/gatsby-source-stripe",
+      "packageJson": {
+        "name": "gatsby-source-stripe",
+        "description": "Gatsby source plugin for building websites using Stripe as a data source",
+        "version": "2.2.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": "Nathan Beck <njosefbeck@gmail.com> (njosefbeck.com)",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "2.0.29"
+          },
+          {
+            "name": "stripe",
+            "version": "6.28.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "7.4.3"
+          },
+          {
+            "name": "@babel/core",
+            "version": "7.4.3"
+          },
+          {
+            "name": "@babel/preset-env",
+            "version": "7.4.3"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "10.0.1"
+          },
+          {
+            "name": "cross-env",
+            "version": "5.2.0"
+          },
+          {
+            "name": "eslint",
+            "version": "5.16.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "4.1.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "2.17.0"
+          },
+          {
+            "name": "eslint-plugin-prettier",
+            "version": "3.0.1"
+          },
+          {
+            "name": "prettier",
+            "version": "1.17.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">=2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "15060b6079f295420accaf1d0ea24772",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "112c12f8-b222-509b-abe0-dfe93a905df9": {
       "resolve": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/node_modules/gatsby-plugin-manifest",
       "id": "112c12f8-b222-509b-abe0-dfe93a905df9",
@@ -773,7 +873,7 @@
       "resolve": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "4aa344f98e616c76975c88f98e678908",
+      "version": "209cd81e40e06f383b3c573f64bb0293",
       "pluginOptions": {
         "plugins": []
       },
@@ -861,7 +961,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "7f5e5dea92146b182404023176e6483d",
+        "contentDigest": "5ab3d834fb55759854b9565833274adc",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -974,12 +1074,14 @@
       },
       "port": 8000,
       "host": "localhost",
-      "buildTime": "2019-04-22T04:05:42.694Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-04-23T03:59:29.537Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "942fcbe35db657943d5e8d18669e9c95",
+        "contentDigest": "071114e04554cf9e4d4a7ede50f3206c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -989,7 +1091,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "02e7a07e826399c49a07c4454ce3fb4f",
+        "contentDigest": "3b7785970a161184a2a20e94cd53b4c4",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1001,7 +1103,7 @@
       "size": 136,
       "prettySize": "136 B",
       "modifiedTime": "2019-04-19T02:40:54.000Z",
-      "accessTime": "2019-04-22T04:05:56.000Z",
+      "accessTime": "2019-04-23T03:59:49.000Z",
       "changeTime": "2019-04-19T03:28:04.000Z",
       "birthTime": "2019-04-19T02:40:54.000Z",
       "root": "/",
@@ -1019,11 +1121,11 @@
       "blksize": 4096,
       "ino": 6413459,
       "blocks": 0,
-      "atimeMs": 1555905956000,
+      "atimeMs": 1555991989000,
       "mtimeMs": 1555641654000,
       "ctimeMs": 1555644484000,
       "birthtimeMs": 1555641654000,
-      "atime": "2019-04-22T04:05:56.000Z",
+      "atime": "2019-04-23T03:59:49.000Z",
       "mtime": "2019-04-19T02:40:54.000Z",
       "ctime": "2019-04-19T03:28:04.000Z",
       "birthtime": "2019-04-19T02:40:54.000Z"
@@ -1048,7 +1150,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-04-19T02:40:54.000Z",
-      "accessTime": "2019-04-19T03:33:22.000Z",
+      "accessTime": "2019-04-23T02:49:30.000Z",
       "changeTime": "2019-04-19T03:28:04.000Z",
       "birthTime": "2019-04-19T02:40:54.000Z",
       "root": "/",
@@ -1066,11 +1168,11 @@
       "blksize": 4096,
       "ino": 6413461,
       "blocks": 48,
-      "atimeMs": 1555644802000,
+      "atimeMs": 1555987770000,
       "mtimeMs": 1555641654000,
       "ctimeMs": 1555644484000,
       "birthtimeMs": 1555641654000,
-      "atime": "2019-04-19T03:33:22.000Z",
+      "atime": "2019-04-23T02:49:30.000Z",
       "mtime": "2019-04-19T02:40:54.000Z",
       "ctime": "2019-04-19T03:28:04.000Z",
       "birthtime": "2019-04-19T02:40:54.000Z"
@@ -1105,7 +1207,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2019-04-19T02:40:54.000Z",
-      "accessTime": "2019-04-19T19:33:54.000Z",
+      "accessTime": "2019-04-23T02:49:28.000Z",
       "changeTime": "2019-04-19T03:28:04.000Z",
       "birthTime": "2019-04-19T02:40:54.000Z",
       "root": "/",
@@ -1123,11 +1225,11 @@
       "blksize": 4096,
       "ino": 6413460,
       "blocks": 328,
-      "atimeMs": 1555702434000,
+      "atimeMs": 1555987768000,
       "mtimeMs": 1555641654000,
       "ctimeMs": 1555644484000,
       "birthtimeMs": 1555641654000,
-      "atime": "2019-04-19T19:33:54.000Z",
+      "atime": "2019-04-23T02:49:28.000Z",
       "mtime": "2019-04-19T02:40:54.000Z",
       "ctime": "2019-04-19T03:28:04.000Z",
       "birthtime": "2019-04-19T02:40:54.000Z"
@@ -1140,6 +1242,58 @@
         "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "sku_Eubk4P0rcAf2U6": {
+      "id": "sku_Eubk4P0rcAf2U6",
+      "object": "sku",
+      "active": true,
+      "attributes": {
+        "name": "Freelance Pants"
+      },
+      "created": 1555641155,
+      "currency": "usd",
+      "image": "https://files.stripe.com/links/fl_test_rlYSswT8p0bGM5OZwpOnQQH7",
+      "inventory": {
+        "quantity": null,
+        "type": "infinite",
+        "value": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "package_dimensions": null,
+      "price": 2000,
+      "product": {
+        "id": "prod_EubkLfRg388NAF",
+        "object": "product",
+        "active": true,
+        "attributes": [
+          "name"
+        ],
+        "caption": null,
+        "created": 1555641155,
+        "deactivate_on": [],
+        "description": null,
+        "images": [],
+        "livemode": false,
+        "metadata": {},
+        "name": "Freelance Pants",
+        "package_dimensions": null,
+        "shippable": true,
+        "type": "good",
+        "updated": 1555990213,
+        "url": null
+      },
+      "updated": 1555641155,
+      "parent": null,
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "StripeSku",
+        "content": "{\"id\":\"sku_Eubk4P0rcAf2U6\",\"object\":\"sku\",\"active\":true,\"attributes\":{\"name\":\"Freelance Pants\"},\"created\":1555641155,\"currency\":\"usd\",\"image\":\"https://files.stripe.com/links/fl_test_rlYSswT8p0bGM5OZwpOnQQH7\",\"inventory\":{\"quantity\":null,\"type\":\"infinite\",\"value\":null},\"livemode\":false,\"metadata\":{},\"package_dimensions\":null,\"price\":2000,\"product\":{\"id\":\"prod_EubkLfRg388NAF\",\"object\":\"product\",\"active\":true,\"attributes\":[\"name\"],\"caption\":null,\"created\":1555641155,\"deactivate_on\":[],\"description\":null,\"images\":[],\"livemode\":false,\"metadata\":{},\"name\":\"Freelance Pants\",\"package_dimensions\":null,\"shippable\":true,\"type\":\"good\",\"updated\":1555990213,\"url\":null},\"updated\":1555641155}",
+        "contentDigest": "244718ae922db67e5f9ee2e1a8335f7e",
+        "description": "A list of skus.",
+        "owner": "gatsby-source-stripe"
       }
     },
     "SitePage /404/": {
@@ -1250,7 +1404,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "48acc664e0c0efc0c549046b2c18ea31"
+    "PLUGINS_HASH": "0cec26575e94e891b6a52ce05f3bd388"
   },
   "componentDataDependencies": {
     "nodes": {

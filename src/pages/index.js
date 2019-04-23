@@ -24,8 +24,8 @@ class Button extends React.Component {
           // Note that it is not guaranteed your customers will be redirected to this
           // URL *100%* of the time, it's possible that they could e.g. close the
           // tab between form submission and the redirect.
-          successUrl: 'https://localhost:8000/success',
-          cancelUrl: 'https://localhost:8000/canceled',
+          successUrl: 'http://localhost:8000/success',
+          cancelUrl: 'http://localhost:8000/canceled',
         })
           .then(function (result) {
             if (result.error) {
@@ -35,7 +35,8 @@ class Button extends React.Component {
               displayError.textContent = result.error.message;
             }
           });
-      }}>
+      }}
+      >
         <button type="submit">Buy Pants</button>
       </form>
     )

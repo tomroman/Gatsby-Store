@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/node_modules/gatsby-plugin-stripe/gatsby-ssr'),
+      plugin: require('/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/node_modules/gatsby-plugin-stripe/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       plugin: require('/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/node_modules/gatsby-plugin-manifest/gatsby-ssr'),

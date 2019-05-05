@@ -1076,12 +1076,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-23T03:59:29.537Z",
+      "buildTime": "2019-05-05T04:18:05.040Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "071114e04554cf9e4d4a7ede50f3206c",
+        "contentDigest": "e4bbabb4442124df0de950920f481c8d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1091,7 +1091,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "3b7785970a161184a2a20e94cd53b4c4",
+        "contentDigest": "38329c848456a8c1a4fd9882b9dfe17e",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1103,7 +1103,7 @@
       "size": 136,
       "prettySize": "136 B",
       "modifiedTime": "2019-04-19T02:40:54.000Z",
-      "accessTime": "2019-04-23T03:59:49.000Z",
+      "accessTime": "2019-05-05T04:18:38.000Z",
       "changeTime": "2019-04-19T03:28:04.000Z",
       "birthTime": "2019-04-19T02:40:54.000Z",
       "root": "/",
@@ -1121,11 +1121,11 @@
       "blksize": 4096,
       "ino": 6413459,
       "blocks": 0,
-      "atimeMs": 1555991989000,
+      "atimeMs": 1557029918000,
       "mtimeMs": 1555641654000,
       "ctimeMs": 1555644484000,
       "birthtimeMs": 1555641654000,
-      "atime": "2019-04-23T03:59:49.000Z",
+      "atime": "2019-05-05T04:18:38.000Z",
       "mtime": "2019-04-19T02:40:54.000Z",
       "ctime": "2019-04-19T03:28:04.000Z",
       "birthtime": "2019-04-19T02:40:54.000Z"
@@ -1400,6 +1400,27 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /products/": {
+      "jsonName": "products-6ef",
+      "internalComponentName": "ComponentProducts",
+      "path": "/products/",
+      "component": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/products.js",
+      "componentChunkName": "component---src-pages-products-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "0cef4f7c-85a2-529e-8246-609456f1e386",
+      "pluginCreatorId": "0cef4f7c-85a2-529e-8246-609456f1e386",
+      "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/products.js",
+      "id": "SitePage /products/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ffb3da2add4ea85c946d2ca965966abb",
+        "description": "0cef4f7c-85a2-529e-8246-609456f1e386",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -1433,7 +1454,8 @@
     "success-ca5": "928/path---success-ca-5-7fb-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "error-27e": "990/path---error-27-e-d4b-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "cancel-5f3": "358/path---cancel-5-f-3-e39-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "canceled-b86": "631/path---canceled-b-86-bc0-0SUcWyAf8ecbYDsMhQkEfPzV8"
+    "canceled-b86": "631/path---canceled-b-86-bc0-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "products-6ef": "363/path---products-6-ef-42b-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
     "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/.cache/dev-404-page.js": {
@@ -1442,7 +1464,7 @@
       "pages": [
         "/dev-404-page/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/404.js": {
       "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/404.js",
@@ -1451,7 +1473,7 @@
         "/404/",
         "/404.html"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/canceled.js": {
       "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/canceled.js",
@@ -1459,7 +1481,7 @@
       "pages": [
         "/canceled/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/index.js": {
       "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/index.js",
@@ -1467,7 +1489,7 @@
       "pages": [
         "/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/success.js": {
       "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/success.js",
@@ -1475,7 +1497,15 @@
       "pages": [
         "/success/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
+    },
+    "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/products.js": {
+      "componentPath": "/Users/thomasroman/Desktop/Gatsby-Repositories/Gatsby-Store/src/pages/products.js",
+      "query": "",
+      "pages": [
+        "/products/"
+      ],
+      "isInBootstrap": false
     }
   },
   "staticQueryComponents": {

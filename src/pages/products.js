@@ -23,3 +23,37 @@ class Product extends React.Component {
         )
       }
 }
+
+export default () => (
+    <StaticQuery
+      query={graphql`
+        {
+          allStripeSku {
+            edges {
+              node {
+                id
+                currency
+                price
+                attributes {
+                  name
+                }
+              }
+            }
+          }
+        }
+      `}
+      render={data => (
+        <Layout>
+          {data.allStripeSku.edges.map(({ node: sku }) => (
+            <Product
+              id={sku.id}
+              currency={sku.currency}
+              price={sku.price}
+              name={sku.attributes.name}
+            />
+          ))}
+        </Layout>
+      )}
+    />
+  )
+  
